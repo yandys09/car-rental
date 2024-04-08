@@ -9,7 +9,7 @@ export const links = [
   {
     link: "/booking",
     text: "Transfers",
-    exact: true,
+    exact: false,
   },
   {
     link: "/local",

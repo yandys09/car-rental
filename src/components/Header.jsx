@@ -14,12 +14,12 @@ const Header = ({ params }) => {
     <div className="bg-white shadow-lg h-16 flex justify-between items-center md:px-[5%]">
       <Link
         href="/"
-        className="text-third-color font-bold text-2xl pl-5 md:pl-0"
+        className="pl-5 text-2xl font-bold text-third-color md:pl-0"
       >
         Code Scrapper
       </Link>
       <div
-        className="md:hidden flex flex-col gap-1 pr-5 "
+        className="flex flex-col gap-1 pr-5 md:hidden "
         onClick={() => setIsMenu(!isMenu)}
       >
         <div className="w-5 h-0.5 bg-black"></div>
